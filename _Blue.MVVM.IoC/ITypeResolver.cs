@@ -19,6 +19,6 @@ namespace Blue.MVVM.IoC {
         /// <typeparam name="T">the type that is beeing cast to</typeparam>
         /// <param name="type">the type to be resolved</param>
         /// <returns></returns>
-        T Resolve<T>(Type type);
+        T ResolveAs<T>(Type type) where T : class;
     }
 }

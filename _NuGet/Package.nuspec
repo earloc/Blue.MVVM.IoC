@@ -2,14 +2,15 @@
 <package >
   <metadata>
     <id>Blue.MVVM.IoC</id>
-    <version>0.3.2-pre1</version>
+    <version>0.4.0-pre1</version>
     <title>Blue.MVVM.IoC</title>
     <authors>earloc</authors>
     <owners></owners>
     <description>
-      MVVM&lt;BareknuckleStyle&gt; - IoC
+      MVVM&lt;BareKnuckleStyle&gt;  - IoC
     </description>
     <releaseNotes>
+      - 0.4.0 - renamed method
       - 0.3.2 - added more PCL-Profiles
       - 0.3.1 - configuration-Parameters in ResolveAsync-Extensions are now optional
       - 0.3.0 - removed class constraint for T of ITypeResolver.ResolveAsync&lt;T&gt;(Type)
