@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Blue.MVVM.IoC</id>
-    <version>0.2.0-pre1</version>
+    <version>0.3.0-pre1</version>
     <title>Blue.MVVM.IoC</title>
     <authors>earloc</authors>
     <owners></owners>
@@ -10,6 +10,7 @@
       MVVM&lt;BareknuckleStyle&gt; - IoC
     </description>
     <releaseNotes>
+      - 0.3.0 - removed class constraint for T of ITypeResolver.ResolveAsync&lt;T&gt;(Type)
       - 0.2.0 - renamed IoC to ITypeResolver to better reflect it´s designated purpose
               - Extensions now in Blue.MVVM.Extensions
       - 0.1.0 - initial release
