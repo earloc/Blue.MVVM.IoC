@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Blue.MVVM.IoC</id>
-    <version>0.3.1-pre1</version>
+    <version>0.3.2-pre1</version>
     <title>Blue.MVVM.IoC</title>
     <authors>earloc</authors>
     <owners></owners>
@@ -10,6 +10,7 @@
       MVVM&lt;BareknuckleStyle&gt; - IoC
     </description>
     <releaseNotes>
+      - 0.3.2 - added more PCL-Profiles
       - 0.3.1 - configuration-Parameters in ResolveAsync-Extensions are now optional
       - 0.3.0 - removed class constraint for T of ITypeResolver.ResolveAsync&lt;T&gt;(Type)
       - 0.2.0 - renamed IoC to ITypeResolver to better reflect it´s designated purpose
@@ -32,7 +33,7 @@
           target="lib/net20" />
 
     <file src="bin\lib\portable40\Blue.MVVM.*"
-          target="lib/portable-net40+SL5" />
+          target="lib/portable-net40+SL5+WP" />
 
     <file src="bin\lib\portable45\Blue.MVVM.*"
           target="lib/portable-net45+netcore45+wpa81+MonoAndroid1+xamarinios10+MonoTouch1" />
