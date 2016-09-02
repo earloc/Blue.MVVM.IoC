@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Blue.MVVM.Extensions {
+namespace Blue.MVVM.IoC {
 
     /// <summary>
     /// Extensions for ITypeResolver
