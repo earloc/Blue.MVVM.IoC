@@ -19,7 +19,7 @@ namespace Blue.MVVM.Extensions {
         /// <param name="source">the discrete ITypeResolver implementation that actually resolves type T</param>
         /// <param name="constructionConfig">the 'construction' logic that should be executed directly after resolving the instance of type T</param>
         /// <returns></returns>
-        public static async Task<T> ResolveAsync<T>(this ITypeResolver source, Func<T, Task> constructionConfig) {
+        public static async Task<T> ResolveAsync<T>(this ITypeResolver source, Func<T, Task> constructionConfig = null) {
             if (source == null)
                 throw new ArgumentNullException(nameof(source), "must not be null");
 
@@ -38,7 +38,7 @@ namespace Blue.MVVM.Extensions {
         /// <param name="source">the discrete ITypeResolver implementation that actually resolves type T</param>
         /// <param name="constructionConfig">the 'construction' logic that should be executed directly after resolving the instance of type T</param>
         /// <returns></returns>
-        public static async Task<T> ResolveAsync<T>(this ITypeResolver source, Action<T> constructionConfig) {
+        public static async Task<T> ResolveAsync<T>(this ITypeResolver source, Action<T> constructionConfig = null) {
             return await ResolveAsync<T>(source, async x => {
                 constructionConfig?.Invoke(x);
 #if BACKPORTED_TPL
