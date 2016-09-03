@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Blue.MVVM.IoC</id>
-    <version>0.4.1-pre1</version>
+    <version>0.4.2-pre1</version>
     <title>Blue.MVVM.IoC</title>
     <authors>earloc</authors>
     <owners></owners>
@@ -10,6 +10,7 @@
       MVVM&lt;BareKnuckleStyle&gt;  - IoC
     </description>
     <releaseNotes>
+      - 0.4.2 - updated compatible profiles
       - 0.4.1 - moved extensions to expected namespace
       - 0.4.0 - renamed method
       - 0.3.2 - added more PCL-Profiles
@@ -38,7 +39,7 @@
           target="lib/portable-net40+SL5+WP" />
 
     <file src="bin\lib\portable45\Blue.MVVM.*"
-          target="lib/portable-net45+netcore45+wpa81+MonoAndroid1+xamarinios10+MonoTouch1" />
+          target="lib/portable-win+net45+win81+wpa81+MonoAndroid+MonoTouch+Xamarin.iOS" />
 
   </files>
 </package>
