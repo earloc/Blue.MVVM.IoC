@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Blue.MVVM.IoC</id>
-    <version>0.4.2-pre1</version>
+    <version>0.5.0-pre1</version>
     <title>Blue.MVVM.IoC</title>
     <authors>earloc</authors>
     <owners></owners>
@@ -10,6 +10,7 @@
       MVVM&lt;BareKnuckleStyle&gt;  - IoC
     </description>
     <releaseNotes>
+      - 0.5.0 - Added extensions
       - 0.4.2 - updated compatible profiles
       - 0.4.1 - moved extensions to expected namespace
       - 0.4.0 - renamed method
