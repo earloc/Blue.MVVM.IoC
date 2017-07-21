@@ -79,6 +79,14 @@
       <Link>lib\net20\Blue.MVVM.IoC.XML</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="..\netstandard10\bin\netstandard1.0\Blue.MVVM.IoC.dll">
+      <Link>lib\netstandard10\Blue.MVVM.IoC.dll</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\netstandard10\bin\netstandard1.0\Blue.MVVM.IoC.pdb">
+      <Link>lib\netstandard10\Blue.MVVM.IoC.pdb</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="..\Portable40\bin\Blue.MVVM.IoC.dll">
       <Link>lib\portable40\Blue.MVVM.IoC.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

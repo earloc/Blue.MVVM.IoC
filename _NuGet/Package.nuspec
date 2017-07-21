@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Blue.MVVM.IoC</id>
-    <version>0.5.0-pre1</version>
+    <version>1.0.0-pre1</version>
     <title>Blue.MVVM.IoC</title>
     <authors>earloc</authors>
     <owners></owners>
@@ -10,6 +10,7 @@
       MVVM&lt;BareKnuckleStyle&gt;  - IoC
     </description>
     <releaseNotes>
+      - 1.0.0 - Added netstandard10
       - 0.5.0 - Added extensions
       - 0.4.2 - updated compatible profiles
       - 0.4.1 - moved extensions to expected namespace
@@ -28,19 +29,22 @@
     <iconUrl>http://oi60.tinypic.com/wl6c7a.jpg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
-    <copyright>Copyright nobody in particular 2016</copyright>
+    <copyright>Copyright nobody in particular 2017</copyright>
     <references></references>
     <tags>Blue MVVM IoC Inversion Control Container DependencyInjection</tags>
   </metadata>
   <files>
     <file src="bin\lib\net20\Blue.MVVM.*"
-          target="lib/net20" />
+          target="lib\net20" />
 
     <file src="bin\lib\portable40\Blue.MVVM.*"
-          target="lib/portable-net40+SL5+WP" />
+          target="lib\portable-net40+SL5+WP" />
 
     <file src="bin\lib\portable45\Blue.MVVM.*"
-          target="lib/portable-win+net45+win81+wpa81+MonoAndroid+MonoTouch+Xamarin.iOS" />
+          target="lib\portable-win+net45+win81+wpa81+MonoAndroid+MonoTouch+Xamarin.iOS" />
+    
+    <file src="bin\lib\netstandard10\Blue.MVVM.*"
+          target="lib\netstandard10" />
 
   </files>
 </package>
