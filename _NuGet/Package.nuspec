@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Blue.MVVM.IoC</id>
-    <version>1.0.0-pre1</version>
+    <version>1.0.0-pre2</version>
     <title>Blue.MVVM.IoC</title>
     <authors>earloc</authors>
     <owners></owners>
@@ -38,7 +38,7 @@
           target="lib\net20" />
 
     <file src="bin\lib\portable40\Blue.MVVM.*"
-          target="lib\portable-net40+SL5+WP" />
+          target="lib\portable-net40+sl5+win8+wp8" />
 
     <file src="bin\lib\portable45\Blue.MVVM.*"
           target="lib\portable-win+net45+win81+wpa81+MonoAndroid+MonoTouch+Xamarin.iOS" />
