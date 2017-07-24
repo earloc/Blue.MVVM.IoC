@@ -3,56 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "_Blue.MVVM.IoC", "_Blue.MVVM.IoC\_Blue.MVVM.IoC.shproj", "{F8C33861-572E-48F8-9C13-41F3A86220C5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portable45", "Portable45\Portable45.csproj", "{E9C8454F-4986-4A01-A5C6-07F7589B2A8D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_NuGet", "_NuGet\_NuGet.csproj", "{0451BAEF-DF2E-4B98-8644-94EE9415E389}"
-	ProjectSection(ProjectDependencies) = postProject
-		{3AEE2B02-AABC-4705-8E9A-5D837F997072} = {3AEE2B02-AABC-4705-8E9A-5D837F997072}
-		{E9C8454F-4986-4A01-A5C6-07F7589B2A8D} = {E9C8454F-4986-4A01-A5C6-07F7589B2A8D}
-		{F4A2ACB3-BCAE-4AB8-AD33-1820B47D0BAE} = {F4A2ACB3-BCAE-4AB8-AD33-1820B47D0BAE}
-		{776128DA-5288-4232-8CFD-7855BDFA65B3} = {776128DA-5288-4232-8CFD-7855BDFA65B3}
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portable40", "Portable40\Portable40.csproj", "{776128DA-5288-4232-8CFD-7855BDFA65B3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net20", "Net20\Net20.csproj", "{F4A2ACB3-BCAE-4AB8-AD33-1820B47D0BAE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netstandard10", "netstandard10\netstandard10.csproj", "{3AEE2B02-AABC-4705-8E9A-5D837F997072}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blue.MVVM.IoC", "Blue.MVVM.IoC\Blue.MVVM.IoC.csproj", "{E184E768-1890-4A04-8435-71C13C135D85}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		_Blue.MVVM.IoC\_Blue.MVVM.IoC.projitems*{776128da-5288-4232-8cfd-7855bdfa65b3}*SharedItemsImports = 4
-		_Blue.MVVM.IoC\_Blue.MVVM.IoC.projitems*{e9c8454f-4986-4a01-a5c6-07f7589b2a8d}*SharedItemsImports = 4
-		_Blue.MVVM.IoC\_Blue.MVVM.IoC.projitems*{f4a2acb3-bcae-4ab8-ad33-1820b47d0bae}*SharedItemsImports = 4
-		_Blue.MVVM.IoC\_Blue.MVVM.IoC.projitems*{f8c33861-572e-48f8-9c13-41f3a86220c5}*SharedItemsImports = 13
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E9C8454F-4986-4A01-A5C6-07F7589B2A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E9C8454F-4986-4A01-A5C6-07F7589B2A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E9C8454F-4986-4A01-A5C6-07F7589B2A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E9C8454F-4986-4A01-A5C6-07F7589B2A8D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.Build.0 = Release|Any CPU
-		{776128DA-5288-4232-8CFD-7855BDFA65B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{776128DA-5288-4232-8CFD-7855BDFA65B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{776128DA-5288-4232-8CFD-7855BDFA65B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{776128DA-5288-4232-8CFD-7855BDFA65B3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F4A2ACB3-BCAE-4AB8-AD33-1820B47D0BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F4A2ACB3-BCAE-4AB8-AD33-1820B47D0BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F4A2ACB3-BCAE-4AB8-AD33-1820B47D0BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F4A2ACB3-BCAE-4AB8-AD33-1820B47D0BAE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3AEE2B02-AABC-4705-8E9A-5D837F997072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3AEE2B02-AABC-4705-8E9A-5D837F997072}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3AEE2B02-AABC-4705-8E9A-5D837F997072}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3AEE2B02-AABC-4705-8E9A-5D837F997072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E184E768-1890-4A04-8435-71C13C135D85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E184E768-1890-4A04-8435-71C13C135D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E184E768-1890-4A04-8435-71C13C135D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E184E768-1890-4A04-8435-71C13C135D85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

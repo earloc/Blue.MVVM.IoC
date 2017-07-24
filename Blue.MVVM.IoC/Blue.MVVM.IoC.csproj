@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <Version>4.0.0-pre01</Version>
+    <Description>2.0.0 - Moving forward - dropped support for net20/35/40, sl4/5, wp(a)7/8
+1.0.0 - Added netstandard10, StreamLined API !Breaking Changes!
+0.5.0 - Added extensions
+0.4.2 - updated compatible profiles
+0.4.1 - moved extensions to expected namespace
+0.4.0 - renamed method
+0.3.2 - added more PCL-Profiles
+0.3.1 - configuration-Parameters in ResolveAsync-Extensions are now optional
+0.3.0 - removed class constraint for T of ITypeResolver.ResolveAsync&amp;lt;T&amp;gt;(Type)
+0.2.0 - renamed IoC to ITypeResolver to better reflect it´s designated purpose
+      - Extensions now in Blue.MVVM.Extensions
+0.1.0 - initial release</Description>
+    <Product>Blue.MVVM</Product>
+    <Company>eSc</Company>
+    <Authors>Alexander Clare</Authors>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <FileVersion>2.0.0.0</FileVersion>
+    <Copyright>Copyright 2014 - 2017 @ Alexander Clare</Copyright>
+    <PackageProjectUrl>https://github.com/earloc/Blue.MVVM.IoC</PackageProjectUrl>
+    <PackageIconUrl>http://oi60.tinypic.com/wl6c7a.jpg</PackageIconUrl>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/earloc/Blue.MVVM.IoC</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
